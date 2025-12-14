@@ -114,7 +114,7 @@ export default function FirebaseStatusControl() {
                 } catch (err) {
                   console.error("Failed to reset detection:", err.message);
                 }
-              }, 20000);
+              }, 5000);
             }
           }
         },
